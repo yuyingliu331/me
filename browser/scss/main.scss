@@ -4,7 +4,22 @@
 
 $font-header: 'Aclonica', sans-serif;
 $font-default: 'Chivo', sans-serif;
+
 $purple: #945EDB;
+$purple2: #8770C0;
+$purple3: #7139BC;
+
+$green: #76D289;
+$green2: #237234;
+$green3: #4EA25F;
+
+$yellow: #F7C63F;
+$yellow2: #D19D0D;
+$yellow3: #FFC31C;
+
+$blue: #5BBBF3;
+$blue2: #3482AF;
+$blue3: #1EA0EB;
 
 body{
 	width:100%;
@@ -21,24 +36,20 @@ h1{
 
 #black-bkgd{
 	background-color:black;
-	position:absolute;
+	position:fixed;
 	z-index:-1;
 	height:100%;
 	width:80%;
 	left:48%;
+	top:0;
+	bottom:0;
 	-ms-transform: skewX(-15deg); /* IE 9 */
     -webkit-transform: skewX(-15deg); /* Safari */
     transform: skewX(-15deg); /* Standard syntax */
 }
 
 
-.text-box{
-	margin-left:5%;
-	margin-right:5%;
-	border:3px solid black;
-	background-color:white;
-	padding:0 2% 2% 2%;
-}
 
 
 @import 'home/main';
+@import 'shapes/main';
