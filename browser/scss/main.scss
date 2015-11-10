@@ -21,6 +21,7 @@ $blue: #5BBBF3;
 $blue2: #3482AF;
 $blue3: #1EA0EB;
 
+$pink: #f063d4;
 body{
 	width:100%;
 	font-family: $font-default;
@@ -30,7 +31,7 @@ body{
 		padding-top:12%;
 }
 
-h1{
+h1, h3{
 	font-family:$font-header;
 }
 
@@ -53,3 +54,4 @@ h1{
 
 @import 'home/main';
 @import 'shapes/main';
+@import 'skills/main';

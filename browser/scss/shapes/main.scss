@@ -57,7 +57,6 @@
 	position: relative;
 }
 	
-	/* hide back of pane during swap */
 .front, .back {
 	width: 100%;
 	backface-visibility: hidden;
@@ -163,4 +162,8 @@
 .blue3{
 	background-color:$blue3;
 	color:white;
+}
+
+.text-pink{
+	color:$pink;
 }
