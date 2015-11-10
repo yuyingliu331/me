@@ -50,8 +50,11 @@ h1, h3{
 }
 
 
-
+.gray{
+	color: gray;
+}
 
 @import 'home/main';
 @import 'shapes/main';
 @import 'skills/main';
+@import 'recipes/main';
