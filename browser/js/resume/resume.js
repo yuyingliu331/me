@@ -73,7 +73,7 @@ app.controller('resumeCtrl', function($scope){
         dates: 'Apr 2014 - May 2015', 
         title: 'Global Citizen', 
         flip: true, 
-        back: 'Create, edit and design pages for globalcitizen.org. Ensure that the website is mobile and tablet friendly. Use Photoshop to create visually stimulating elements.', 
+        back: 'Created, edited and designed pages for globalcitizen.org. Ensured that the website is mobile and tablet friendly. Used Photoshop to create visually stimulating elements.', 
         color: 'green2'
       },
       { 

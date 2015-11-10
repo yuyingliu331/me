@@ -47,7 +47,8 @@ var label = function(d) {
 
 //Create bars
 
-var color = ['#D276C0', '#9f3089', '#f063d4', '#cb21aa'];
+var color2 = ['#D276C0', '#9f3089', '#f063d4', '#cb21aa'];
+var color=['#5BBBF3', '#3482AF', '#1EA0EB', '#275082'];
 var svg = d3.select(".chart")
   .selectAll("div")
     .data($scope.skills, label)
