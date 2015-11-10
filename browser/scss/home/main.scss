@@ -5,11 +5,15 @@
 		font-size:6em;
 		color: rgba(gray, 0.7);
 	}
-
 	.menu_home{
+		font-size:1.5em;
+	}
+	
+}
+
+.menu_home{
 		display:inline-block;
 		padding:1%;
-		font-size:1.5em;
 
 		a{
 			color: rgba(gray, 0.9);
@@ -17,4 +21,3 @@
 
 		
 	}
-}

@@ -9,10 +9,10 @@ $purple: #945EDB;
 body{
 	width:100%;
 	font-family: $font-default;
+}
 
-	::before{
-		border-left:1px solid black;
-	}
+#main{
+		padding-top:12%;
 }
 
 h1{
@@ -30,5 +30,15 @@ h1{
     -webkit-transform: skewX(-15deg); /* Safari */
     transform: skewX(-15deg); /* Standard syntax */
 }
+
+
+.text-box{
+	margin-left:5%;
+	margin-right:5%;
+	border:3px solid black;
+	background-color:white;
+	padding:0 2% 2% 2%;
+}
+
 
 @import 'home/main';

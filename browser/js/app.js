@@ -6,7 +6,15 @@ app.config(function ($urlRouterProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
     // If we go to a URL that ui-router doesn't have registered, go to the "/" url.
     $urlRouterProvider.otherwise('/');
-    console.log('starting up the app');
 
 });
 
+app.run(function ($rootScope, $state) {
+
+    // $stateChangeStart is an event fired
+    // whenever the process of changing a state begins.
+    $rootScope.$on('$stateChangeStart', function (event, toState, toParams) {
+      if(toState.url === '/') $rootScope.home = true;
+      else $rootScope.home = false;
+    });
+});
