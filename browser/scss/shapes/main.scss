@@ -20,6 +20,38 @@
 
 }
 
+.col-sm-3{
+	padding:15px;
+}
+
+.square{
+	padding:3%;
+	margin-bottom:1%;
+	position:relative;
+
+
+	.date{
+		position:absolute;
+		bottom: 0;
+		width:100%;
+		p{
+			text-align:center;
+		}
+	}
+	
+}
+
+.purple-text, .blue-text, .green-text, .yellow-text{
+	h4{
+		margin-top:15%;
+		font-size:2em !important;
+	}
+}
+
+.purple-text{
+	color:$purple;
+}
+
 .purple1{
 	background-color:$purple;
 	color:white;
@@ -32,5 +64,62 @@
 
 .purple3{
 	background-color:$purple3;
+	color:white;
+}
+
+.green-text{
+	color:$green;
+}
+
+.green1{
+	background-color:$green;
+	color:white;
+}
+
+.green2{
+	background-color:$green2;
+	color:white;
+}
+
+.green3{
+	background-color:$green3;
+	color:white;
+}
+
+.yellow-text{
+	color:$yellow;
+}
+
+.yellow1{
+	background-color:$yellow;
+	color:white;
+}
+
+.yellow2{
+	background-color:$yellow2;
+	color:white;
+}
+
+.yellow3{
+	background-color:$yellow3;
+	color:white;
+}
+
+.blue-text{
+	color:$blue;
+}
+
+.blue1{
+	background-color:$blue;
+	color:white;
+}
+
+.blue2{
+	background-color:$blue2;
+	color:white;
+}
+
+.blue3{
+	background-color:$blue3;
 	color:white;
 }

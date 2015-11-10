@@ -1,0 +1,61 @@
+<div class="col-sm-12" id="full-width">
+	<div ng-repeat="school in education" class="col-sm-3 col-xs-12">
+		<div class="{{school.color}} square" style="height: {{width}}px">
+			<div class="front text-center" >
+				<h4>{{school.label | uppercase}}</h4>
+
+				<div class="date">
+					<p>{{school.dates}}</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+	<div ng-repeat="job in experience" class="col-sm-3 col-xs-12">
+		<div class="{{job.color}} square" style="height: {{width}}px">
+			<div class="front text-center">
+				<h4>{{job.label | uppercase}}</h4>
+
+				<div class="date">
+					<p>{{job.dates}}</p>
+					<p>{{job.title}}</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div ng-repeat="job in leadership" class="col-sm-3 col-xs-12">
+		<div class="{{job.color}} square" style="height: {{width}}px">
+			<div class="front text-center">
+				<h4>{{job.label | uppercase}}</h4>
+
+				<div class="date">
+					<p>{{job.dates}}</p>
+					<p>{{job.title}}</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div ng-repeat="job in volunteer" class="col-sm-3 col-xs-12">
+		<div class="{{job.color}} square" style="height: {{width}}px">
+			<div class="front text-center">
+				<h4>{{job.label | uppercase}}</h4>
+
+				<div class="date">
+					<p>{{job.dates}}</p>
+					<p>{{job.title}}</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
