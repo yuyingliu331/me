@@ -1,28 +1,43 @@
+
 <div class="col-sm-12" id="full-width">
 	<div ng-repeat="school in education" class="col-sm-3 col-xs-12">
-		<div class="{{school.color}} square" style="height: {{width}}px">
-			<div class="front text-center" >
-				<h4>{{school.label | uppercase}}</h4>
+		<div class="square" style="height: {{width}}px">
+			<div class="" ng-class="{'flipper':school.flip}">
+				<div class="face text-center {{school.color}}" ng-class="{'front':school.flip}" style="height: {{width}}px">
+					<h4><b>{{school.label | uppercase}}</b></h4>
 
-				<div class="date">
-					<p>{{school.dates}}</p>
+					<div class="date">
+						<p>{{school.dates}}</p>
+					</div>
+
 				</div>
 
+				<div class="back face text-center {{school.color}} " style="height: {{width}}px">
+					{{school.back}}
+
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="clearfix"></div>
 	<div ng-repeat="job in experience" class="col-sm-3 col-xs-12">
-		<div class="{{job.color}} square" style="height: {{width}}px">
-			<div class="front text-center">
-				<h4>{{job.label | uppercase}}</h4>
+		<div class="square" style="height: {{width}}px">
+			<div ng-class="{'flipper':job.flip}">
+				<div class="face text-center front {{job.color}}" style="height: {{width}}px">
+					<h4><b>{{job.label | uppercase}}</b></h4>
 
-				<div class="date">
-					<p>{{job.dates}}</p>
-					<p>{{job.title}}</p>
+					<div class="date">
+						<p>{{job.dates}}</p>
+						<p>{{job.title}}</p>
+					</div>
+
 				</div>
 
+				<div class="back face text-center {{job.color}} " style="height: {{width}}px">
+					{{job.back}}
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -30,15 +45,22 @@
 	<div class="clearfix"></div>
 
 	<div ng-repeat="job in leadership" class="col-sm-3 col-xs-12">
-		<div class="{{job.color}} square" style="height: {{width}}px">
-			<div class="front text-center">
-				<h4>{{job.label | uppercase}}</h4>
+		<div class="square" style="height: {{width}}px">
+			<div ng-class="{'flipper':job.flip}">
+				<div class="face text-center front {{job.color}}" style="height: {{width}}px">
+					<h4><b>{{job.label | uppercase}}</b></h4>
 
-				<div class="date">
-					<p>{{job.dates}}</p>
-					<p>{{job.title}}</p>
+					<div class="date">
+						<p>{{job.dates}}</p>
+						<p>{{job.title}}</p>
+					</div>
+
 				</div>
 
+				<div class="back face text-center {{job.color}} " style="height: {{width}}px">
+					{{job.back}}
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -46,15 +68,22 @@
 	<div class="clearfix"></div>
 
 	<div ng-repeat="job in volunteer" class="col-sm-3 col-xs-12">
-		<div class="{{job.color}} square" style="height: {{width}}px">
-			<div class="front text-center">
-				<h4>{{job.label | uppercase}}</h4>
+		<div class="square" style="height: {{width}}px">
+			<div ng-class="{'flipper':job.flip}">
+				<div class="face text-center front {{job.color}}" style="height: {{width}}px">
+					<h4><b>{{job.label | uppercase}}</b></h4>
 
-				<div class="date">
-					<p>{{job.dates}}</p>
-					<p>{{job.title}}</p>
+					<div class="date">
+						<p>{{job.dates}}</p>
+						<p>{{job.title}}</p>
+					</div>
+
 				</div>
 
+				<div class="back face text-center {{job.color}} " style="height: {{width}}px">
+					{{job.back}}
+
+				</div>
 			</div>
 		</div>
 	</div>
