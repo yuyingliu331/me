@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Aclonica);
+
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
+
+$font-header: 'Aclonica', sans-serif;
+$font-default: 'Chivo', sans-serif;
+$purple: #945EDB;
+
+body{
+	width:100%;
+	font-family: $font-default;
+
+	::before{
+		border-left:1px solid black;
+	}
+}
+
+h1{
+	font-family:$font-header;
+}
+
+#black-bkgd{
+	background-color:black;
+	position:absolute;
+	z-index:-1;
+	height:100%;
+	width:80%;
+	left:48%;
+	-ms-transform: skewX(-15deg); /* IE 9 */
+    -webkit-transform: skewX(-15deg); /* Safari */
+    transform: skewX(-15deg); /* Standard syntax */
+}
+
+@import 'home/main';
