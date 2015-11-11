@@ -1,7 +1,9 @@
 <div class="center-block col-sm-12">
-	<div ng-repeat="project in projects" class="col-sm-4 col-xs-12 center-block text-center" >
-		<a href="{{project.link}}" class="circle text-center {{project.color}}">
+	<div ng-repeat="project in projects" class="col-md-4 col-xs-12 center-block text-center" >
+		<div class="circle {{project.color}}">
+		<a href="{{project.link}}" class=" text-center">
 			<h3>{{project.name}}</h3>
+		</div>
 		</div>
 	</div>
 
