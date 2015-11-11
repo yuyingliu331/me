@@ -50,7 +50,7 @@ app.controller('resumeCtrl', function($scope){
         title: 'Katz\'s Deli', 
         flip: true, 
         back: 'Plan and create social media content for Twitter, Facebook and Instagram daily. Oversee the redesign of the Katz\'s Deli website.', 
-        color: 'green1'
+        color: 'green2'
       },
       { 
         label: ' ', 
@@ -58,7 +58,7 @@ app.controller('resumeCtrl', function($scope){
         title: ' ', 
         flip: false, 
         back: '', 
-        color: 'green2'
+        color: 'green3'
       },
       { 
         label: 'Experience', 
@@ -74,7 +74,7 @@ app.controller('resumeCtrl', function($scope){
         title: 'Global Citizen', 
         flip: true, 
         back: 'Created, edited and designed pages for globalcitizen.org. Ensured that the website is mobile and tablet friendly. Used Photoshop to create visually stimulating elements.', 
-        color: 'green2'
+        color: 'green3'
       },
       { 
         label: 'Global Citizen Coordinator', 
@@ -82,7 +82,7 @@ app.controller('resumeCtrl', function($scope){
         title: 'Global Citizen', 
         flip: true, 
         back: 'Responsible for procuring and publicizing shows from over 200 artists worldwide. Acted as liaison between artist managers and ticket winners.', 
-        color: 'green2'
+        color: 'green1'
       },
       { 
         label: 'Freelance Web Design', 
@@ -90,7 +90,7 @@ app.controller('resumeCtrl', function($scope){
         title: '', 
         flip: true, 
         back: 'Design and build custom pages. Tailored each website to individual client\'s needs and desired style.', 
-        color: 'green3'
+        color: 'green2'
       },
       { 
         label: 'Research Assistant', 
@@ -106,7 +106,7 @@ app.controller('resumeCtrl', function($scope){
         title: 'Millennium Campus Network', 
         flip: true, 
         back: 'Recruited 1000+ student leaders from around the country for a conference. Helped organize, plan, and run the Millennium Campus Conference 2012.', 
-        color: 'green3'
+        color: 'green2'
       }
     ];
 
