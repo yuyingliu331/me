@@ -18,6 +18,23 @@
 			color:white;
 		}
 	}
+
+	.hidden-lg{
+		display:block;
+	}
+
+	.show-lg{
+		display:none;
+	}
+
+	.title{
+		padding:2%;
+	}
+
+	.resume-text{
+		background-color:white;
+		padding:2%;
+	}
 }
 @media (min-width: 992px){
 
@@ -36,6 +53,14 @@
 		}
 		
 
+	}
+
+	.hidden-lg{
+		display:none;
+	}
+
+	.show-lg{
+		display:block;
 	}
 }
 
@@ -75,10 +100,6 @@
 	position: relative;
 }
 
-.no-flip{
-	position:relative;
-}
-	
 .front, .back {
 	width: 100%;
 	backface-visibility: hidden;
