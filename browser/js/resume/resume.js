@@ -53,9 +53,9 @@ app.controller('resumeCtrl', function($scope){
         color: 'green1'
       },
       { 
-        label: '', 
-        dates: '', 
-        title: '', 
+        label: ' ', 
+        dates: ' ', 
+        title: ' ', 
         flip: false, 
         back: '', 
         color: 'green2'
@@ -112,20 +112,20 @@ app.controller('resumeCtrl', function($scope){
 
     $scope.leadership = [
       { 
-        label: 'Hospitality Executive', 
-        dates: 'Dec 2009 - May 2013', 
-        title: 'Tufts University Concert Board', 
-        flip: true, 
-        back: 'In charge of 10-15 concert board members before and during shows. Responsible for any requests made by artists during the show. Provided food and supplies in preparation for the artist\'s arrival.', 
-        color: 'yellow1'
-      },
-      { 
         label: 'Leadership', 
         dates: '', 
         title: '', 
         flip: false, 
         back: '', 
         color: 'yellow-text'
+      },
+      { 
+        label: 'Hospitality Executive', 
+        dates: 'Dec 2009 - May 2013', 
+        title: 'Tufts University Concert Board', 
+        flip: true, 
+        back: 'In charge of 10-15 concert board members before and during shows. Responsible for any requests made by artists during the show. Provided food and supplies in preparation for the artist\'s arrival.', 
+        color: 'yellow1'
       },
       { 
         label: 'Group Leader', 
@@ -147,14 +147,7 @@ app.controller('resumeCtrl', function($scope){
     ];
 
     $scope.volunteer = [
-      { 
-        label: 'Volunteer', 
-        dates: '', 
-        title: '', 
-        flip: false, 
-        back: '', 
-        color: 'blue-text'
-      },
+      
       { 
         label: 'Volunteer Coder', 
         dates: 'Oct 2015 - present', 
@@ -170,6 +163,14 @@ app.controller('resumeCtrl', function($scope){
         flip: true, 
         back: 'Spent two hours weekly with a mentally handicapped woman. Helped her acclimate to new situations. Explored ways to alleviate her social anxiety.', 
         color: 'blue2'
+      },
+      { 
+        label: 'Volunteer', 
+        dates: '', 
+        title: '', 
+        flip: false, 
+        back: '', 
+        color: 'blue-text'
       },
       { 
         label: 'Volunteer', 

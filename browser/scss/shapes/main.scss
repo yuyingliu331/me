@@ -25,10 +25,9 @@
 }
 
 .square{
-	padding:3%;
-	margin-bottom:1%;
+	margin-bottom:3%;
 	position:relative;
-		perspective:1000;
+	perspective:1000;
 
 
 	.date{
@@ -55,6 +54,10 @@
 	-webkit-transform-style: preserve-3d;
 
 	position: relative;
+}
+
+.no-flip{
+	position:relative;
 }
 	
 .front, .back {
