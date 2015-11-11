@@ -8,7 +8,7 @@
 
 		<div class="recipes purple-border">
 			<p ng-repeat="app in apps">
-				<a href="app.link">{{app.name}}</a>
+				<a href="{{app.link}}" target="_blank">{{app.name}}</a>
 			</p>
 		</div>
 
@@ -21,7 +21,7 @@
 		<div class="recipes yellow-border">
 
 			<p ng-repeat="side in sides">
-				<a href="side.link">{{side.name}}</a>
+				<a href="{{side.link}}" target="_blank">{{side.name}}</a>
 			</p>
 		</div>
 	</div>
@@ -30,13 +30,13 @@
 
 	<div class="col-sm-6">
 		<div class="green1 title-section">
-			<h4 class="text-center">Main Dishes</h4>
+			<h4 class="text-center" target="_blank">Main Dishes</h4>
 		</div>
 
 		<div class="recipes green-border">
 
 			<p ng-repeat="main in mains">
-				<a href="main.link">{{main.name}}</a>
+				<a href="{{main.link}}" target="_blank">{{main.name}}</a>
 			</p>
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 		<div class="recipes pink-border">
 
 			<p ng-repeat="dessert in desserts">
-				<a href="dessert.link">{{dessert.name}}</a>
+				<a href="{{dessert.link}}">{{dessert.name}}</a>
 			</p>
 		</div>
 	</div>
