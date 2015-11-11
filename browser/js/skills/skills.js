@@ -33,6 +33,7 @@ app.controller('skillsCtrl', function($scope, MENU){
 
 var w = document.querySelector('.chart').clientWidth/15 * 14.3;
 ;
+
 var h = 250;
 
 var xScale = d3.scale.linear()
