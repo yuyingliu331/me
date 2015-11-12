@@ -34,6 +34,7 @@ app.controller('skillsCtrl', function($scope, MENU){
 var w = document.querySelector('.chart').clientWidth/15 * 14.3;
 ;
 
+
 var h = 250;
 
 var xScale = d3.scale.linear()
@@ -61,5 +62,7 @@ var svg = d3.select(".chart")
     .style('margin', '1%')
     .text(function(d) { return d.label; });
 
-
+// var height = document.querySelector('.chart > div').style.height;
+// var num = height.slice(0, -2) * ($scope.skills.length*1.3);
+// document.querySelector('.text-box').style.height += num + 'vh';
 });
