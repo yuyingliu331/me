@@ -1,5 +1,5 @@
 #home{
-	margin-top:15%;
+	margin-top:10%;
 
 	h1{
 		font-size:6em;
@@ -11,7 +11,9 @@
 	
 }
 
-.menu_home{
+@media (min-width: 992px){
+
+	.menu_home{
 		display:inline-block;
 		padding:1%;
 
@@ -21,3 +23,19 @@
 
 		
 	}
+}
+
+@media screen and (max-width: 991px){
+
+	.menu_home{
+		padding:1%;
+		display:block;
+		font-size:3em !important;
+
+		a{
+			color: rgba(gray, 0.9);
+		}
+
+		
+	}
+}
