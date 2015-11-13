@@ -7,9 +7,9 @@
 
         
 
-        <span class="hidden-lg glyphicon glyphicon-menu-hamburger pull-right btn-lg" ng-click="showmenu = !showmenu"></span>
+        <span id="hamburger" class="hidden-lg glyphicon glyphicon-menu-hamburger pull-right btn-lg" ng-click="showmenu = !showmenu"></span>
 
-        <div ng-show="showmenu" ng-class="{show-lg:showmenu}">
+        <div ng-show="showmenu">
             <ul class="">
                 <li ng-repeat="item in menu" class="menu_home">
                     <a ui-sref-active="active" ui-sref="{{ item.state }}">{{ item.label }}</a>
