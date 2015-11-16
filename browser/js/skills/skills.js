@@ -64,7 +64,7 @@ app.controller('skillsCtrl', function($scope, MENU){
 
 
 
-var width = document.querySelector('.pie-charts').clientWidth/4,
+var width = document.querySelector('.sizing').clientWidth,
     height = width,
     radius = Math.min(width, height) / 2;
 

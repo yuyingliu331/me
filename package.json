@@ -6,6 +6,10 @@
     "start": "nodemon --watch server -e js,html server/start.js",
     "postinstall": "gulp build"
   },
+  "engines": {
+    "node": "4.x",
+    "npm": "2.1.x"
+  },
   "dependencies": {
     "angular": "^1.4.7",
     "angular-bootstrap": "^0.12.2",
