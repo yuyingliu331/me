@@ -15,7 +15,8 @@ app.controller('resumeCtrl', function($scope){
         title: '', 
         flip: false, 
         back: '', 
-        color: 'purple-text'
+        color: 'purple-text',
+        hide: true
       },
       { 
         label: 'Fullstack Academy', 
@@ -58,7 +59,8 @@ app.controller('resumeCtrl', function($scope){
         title: ' ', 
         flip: false, 
         back: '', 
-        color: 'green3'
+        color: 'green3',
+        hide: true
       },
       { 
         label: 'Experience', 
@@ -66,7 +68,8 @@ app.controller('resumeCtrl', function($scope){
         title: '', 
         flip: false, 
         back: '', 
-        color: 'green-text'
+        color: 'green-text',
+        hide: true
       },
       { 
         label: 'Front End Web Developer and Designer', 
@@ -117,7 +120,8 @@ app.controller('resumeCtrl', function($scope){
         title: '', 
         flip: false, 
         back: '', 
-        color: 'yellow-text'
+        color: 'yellow-text',
+        hide: true
       },
       { 
         label: 'Hospitality Executive', 
@@ -170,7 +174,8 @@ app.controller('resumeCtrl', function($scope){
         title: '', 
         flip: false, 
         back: '', 
-        color: 'blue-text'
+        color: 'blue-text',
+        hide: true
       },
       { 
         label: 'Volunteer', 
