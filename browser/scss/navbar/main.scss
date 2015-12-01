@@ -3,20 +3,3 @@
 	border-bottom:2px solid black;
 }
 
-@media screen and (max-width: 991px){
-	.navbar > div{
-		text-align:left;
-		h3{
-			display:inline-block;
-		}
-	}
-
-	.glyphicon.glyphicon-menu-hamburger{
-		font-size:4em;
-	}
-}
-
-@media (min-width: 992px){
-
-}
-

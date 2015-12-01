@@ -7,57 +7,6 @@
 }
 
 
-@media screen and (max-width: 991px){
-	.circle{
-		width:100% !important;
-		height:100px;
-		padding:2%;
-		border-radius:0px;
-		margin:1%;
-		a{
-			color:white;
-		}
-	}
-
-	.mobile-title{
-		display:block;
-		padding:1%;
-	}
-	.hidden-lg{
-		display:block;
-	}
-
-	.show-lg{
-		display:none;
-	}
-
-	.title{
-		padding:2%;
-	}
-
-	.resume-text{
-		background-color:white;
-		padding:2%;
-		display:block;
-	}
-
-	body, p, li{
-		font-size:2em;
-	}
-
-	h4{
-		font-size:2.5em;
-	}
-
-	h3{
-		font-size:3em;
-	}
-
-	h2{
-		font-size:3.5em;
-	}
-}
-@media (min-width: 992px){
 
 	.circle{
 		width:250px;
@@ -85,7 +34,7 @@
 	}
 
 
-}
+
 
 .col-sm-3{
 	padding:15px;
