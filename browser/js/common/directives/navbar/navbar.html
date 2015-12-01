@@ -1,17 +1,18 @@
 <nav class="navbar navbar-default navbar-fixed-top" ng-if="!home">
     <div id="background-white"></div>
     <div class="container text-center">
-    	<h3>
+    	<span id="hamburger" class="glyphicon glyphicon-menu-hamburger pull-left btn-lg" ng-click="showmenu = !showmenu"></span>
+        <h3>
     		Beckylee Dell
     	</h3>
 
         
 
-        <span id="hamburger" class="hidden-lg glyphicon glyphicon-menu-hamburger pull-right btn-lg" ng-click="showmenu = !showmenu"></span>
+        
 
         <div ng-show="showmenu">
-            <ul class="">
-                <li ng-repeat="item in menu" class="menu_home">
+            <ul class="pull-left col-sm-12">
+                <li ng-repeat="item in menu" class="menu_home col-md-2 col-sm-12">
                     <a ui-sref-active="active" ui-sref="{{ item.state }}">{{ item.label }}</a>
                 </li>
             </ul>
