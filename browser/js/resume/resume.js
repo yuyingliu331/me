@@ -151,7 +151,14 @@ app.controller('resumeCtrl', function($scope){
     ];
 
     $scope.volunteer = [
-      
+      { 
+        label: 'Lead Developer', 
+        dates: 'November 2015 - present', 
+        title: 'Nomprofits', 
+        flip: true, 
+        back: 'Built a full website, using the MEAN stack for a budding nonprofit.  Created a custom CMS, suited to the needs of the founder.', 
+        color: 'blue3'
+      },
       { 
         label: 'Volunteer Coder', 
         dates: 'Oct 2015 - present', 
@@ -160,14 +167,7 @@ app.controller('resumeCtrl', function($scope){
         back: 'Create and edit pages and test security for different charities as needed.', 
         color: 'blue1'
       },
-      { 
-        label: 'Buddy', 
-        dates: 'Sep 2010 - May 2011', 
-        title: 'Best Buddies Program', 
-        flip: true, 
-        back: 'Spent two hours weekly with a mentally handicapped woman. Helped her acclimate to new situations. Explored ways to alleviate her social anxiety.', 
-        color: 'blue2'
-      },
+      
       { 
         label: 'Volunteer', 
         dates: '', 
@@ -178,12 +178,20 @@ app.controller('resumeCtrl', function($scope){
         hide: true
       },
       { 
+        label: 'Buddy', 
+        dates: 'Sep 2010 - May 2011', 
+        title: 'Best Buddies Program', 
+        flip: true, 
+        back: 'Spent two hours weekly with a mentally handicapped woman. Helped her acclimate to new situations. Explored ways to alleviate her social anxiety.', 
+        color: 'blue1'
+      },
+      { 
         label: 'Volunteer', 
         dates: 'Jun 2008 - Jul 2008', 
         title: 'The Road Less Traveled', 
         flip: true, 
         back: 'Assisted in trash cleanup throughout Bhutan. Helped restore temples and homes. Helped secondary school students apply to university.', 
-        color: 'blue3'
+        color: 'blue2'
       }
 
     ];
