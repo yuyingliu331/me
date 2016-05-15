@@ -8,6 +8,10 @@
 
 
 @media screen and (max-width: 991px){
+	.show-sm{
+		display:block;
+	}
+
 	.circle{
 		width:100% !important;
 		height:100px;
@@ -44,7 +48,9 @@
 
 }
 @media (min-width: 992px){
-
+	.show-sm{
+		display:none;
+	}
 	.circle{
 		width:250px;
 		height:250px;
