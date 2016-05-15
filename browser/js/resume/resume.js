@@ -46,21 +46,20 @@ app.controller('resumeCtrl', function($scope){
 
     $scope.experience = [
       { 
+        label: 'Web Developer', 
+        dates: 'Feb 2016 - present', 
+        title: 'ThinkEco Inc.', 
+        flip: true, 
+        back: 'Build sites for customers and partners using Angular, Bootstrap, and JavaScript.  Ensure that all sites are cross-browser compatible and responsive across all platforms.', 
+        color: 'green2'
+      },
+      { 
         label: 'Communications Officer & Website Manager', 
         dates: 'Jun 2013 - present', 
         title: 'Katz\'s Deli', 
         flip: true, 
         back: 'Plan and create social media content for Twitter, Facebook and Instagram daily. Oversee the redesign of the Katz\'s Deli website.', 
-        color: 'green2'
-      },
-      { 
-        label: ' ', 
-        dates: ' ', 
-        title: ' ', 
-        flip: false, 
-        back: '', 
-        color: 'green3',
-        hide: true
+        color: 'green3'
       },
       { 
         label: 'Experience', 
@@ -80,19 +79,19 @@ app.controller('resumeCtrl', function($scope){
         color: 'green3'
       },
       { 
-        label: 'Global Citizen Coordinator', 
-        dates: 'Jun 2013 - Apr 2014', 
-        title: 'Global Citizen', 
-        flip: true, 
-        back: 'Responsible for procuring and publicizing shows from over 200 artists worldwide. Acted as liaison between artist managers and ticket winners.', 
-        color: 'green1'
-      },
-      { 
         label: 'Freelance Web Design', 
         dates: 'Mar 2014 - present', 
         title: '', 
         flip: true, 
         back: 'Design and build custom pages. Tailored each website to individual client\'s needs and desired style.', 
+        color: 'green1'
+      },
+      { 
+        label: 'Global Citizen Coordinator', 
+        dates: 'Jun 2013 - Apr 2014', 
+        title: 'Global Citizen', 
+        flip: true, 
+        back: 'Responsible for procuring and publicizing shows from over 200 artists worldwide. Acted as liaison between artist managers and ticket winners.', 
         color: 'green2'
       },
       { 
