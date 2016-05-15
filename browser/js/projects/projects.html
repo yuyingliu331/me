@@ -1,7 +1,8 @@
-<div class="center-block col-sm-12">
-	<div ng-repeat="project in projects" class="col-md-4 col-xs-12 center-block text-center" >
+<div class="center-block col-sm-12 center">
+	<p class="clearfix"></p>
+	<div ng-repeat="project in projects" class="col-md-4 col-xs-12 center-block text-center" ng-class="{'hidden-xs': project.hide}">
 		<div class="circle {{project.color}}">
-		<a href="{{project.link}}" class=" text-center">
+		<a href="{{project.link}}" target="_blank" class=" text-center">
 			<h3>{{project.name}}</h3>
 		</div>
 		</div>
