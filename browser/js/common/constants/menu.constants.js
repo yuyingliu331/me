@@ -1,8 +1,9 @@
 app.constant('MENU', [
+  { label: 'Home', state: 'home'},
 	{ label: 'About', state: 'about'},
-	{ label: 'Projects', state: 'projects'},
-	{ label: 'Resume', state: 'resume'},
+	{ label: 'Travel_Places', state: 'projects'},
+	{ label: 'Education Background', state: 'resume'},
 	{ label: 'Skills', state: 'skills'},
-	{ label: 'Favorite Recipes', state: 'recipes'},
+	{ label: 'Professional Experiences', state: 'recipes'},
 	{ label: 'Contact', state: 'contact'}
 ]);
