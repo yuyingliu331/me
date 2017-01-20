@@ -64,7 +64,7 @@
 		a{
 			color:white;
 		}
-		
+
 
 	}
 
@@ -98,7 +98,7 @@
 			text-align:center;
 		}
 	}
-	
+
 }
 
 .square:hover .flipper, .square.hover .flipper {
@@ -147,12 +147,12 @@
 	-ms-transform: rotateY(180deg);
 
 }
-	
+
 .purple-text, .blue-text, .green-text, .yellow-text{
 	h4{
-		margin-top:15%;
-		font-size:2em !important;
-		font-family: $font-header;
+		margin-top:30%;
+		font-size:1.7em;
+
 	}
 }
 
@@ -160,14 +160,29 @@
 	color:$purple;
 }
 
+.black-text{
+	color: $black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.7em;
+}
+.purple1-text{
+	color:$purple;
+	font-size: 1.5em;
+	font-family: "Times New Roman", Times, serif;
+}
+
 .purple1{
 	background-color:$purple;
 	color:white;
+	font-size: 1.7em;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .purple2{
 	background-color:$purple2;
 	color:white;
+	font-size: 1.7em;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .purple3{
