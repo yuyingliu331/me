@@ -1,11 +1,12 @@
 
 <div class="col-sm-12 text-center" id="home">
 	<h1>{{'Wenyi Jones' | uppercase}}</h1>
-
-	<li ng-repeat="item in menu" class="menu_home col-md-2 col-sm-12">
+  <div>
+	<li ng-repeat="item in menu" class="menu_home col-md-3 col-sm-12">
         <a ui-sref-active="active" ui-sref="{{ item.state }}">{{ item.label }}</a>
     </li>
-    <div>This website is my part-time project. It is my personal oasis to reminisce the good old times as well as share the light-hearted happenings now.</div>
+  </div>
+    <li class="conclusion">This website is my part-time project. It is my personal oasis to remi<a ui-sref-active="active" ui-sref=''>nisce the good old times as well as share the light-hearted happenings now.</a></li>
 
 </div>
 
