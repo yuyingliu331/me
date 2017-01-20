@@ -28,7 +28,7 @@ app.controller('resumeCtrl', function($scope){
       },
       {
         label: 'Penny traveled from coast to coast.',
-        dates: '2011',
+        dates: '2016',
         title: '',
         flip: true,
         back:'',
